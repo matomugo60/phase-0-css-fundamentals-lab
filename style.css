@@ -14,9 +14,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-a {
-  position: absolute;
+nav {
   text-align: center;
+}
+nav a {
 padding-left: 10px;
 padding-right: 10px;
 background-color: grey;
@@ -25,18 +26,22 @@ figcaption {
   text-align: center;
   font-size:x-small;
 }
-p #featured property {
-  width: 600px;
-  text-align: center;
+#featured-property p {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   
 }
-p {
-  width: 600px;
+footer {
   text-align: center;
+  width: 100%;
 }
-div {
-  float: left;
+
+#details > div {
+  float:left;
   background-color: red;
-  text-align: center;
   width: 25%;
+  text-align: center;
 }
+
+
